@@ -1,7 +1,7 @@
 {
   "name": "admin-react",
   "version": "0.1.0",
-  "description": "Admin react",
+  "description": "Minimal Webpack 5 React, typescript and MUI 5",
   "keywords": [
     "react",
     "webpack",

@@ -27,11 +27,14 @@ module.exports = {
       },
     ],
   },
-  plugins: [new HtmlWebpackPlugin({ template: 'index.html.ejs' })],
-  externals: {
-    react: 'React',
-    'react-dom': 'ReactDOM',
-  },
+  plugins: [
+    new HtmlWebpackPlugin({
+      inject: true,
+      minify: false,
+      template: 'index.html',
+      filename: 'index.html',
+    }),
+  ],
   performance: {
     hints: false,
   },
